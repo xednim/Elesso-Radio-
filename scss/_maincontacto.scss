@@ -1,0 +1,39 @@
+@import "variables";
+@import "reset";
+
+.mainContacto{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    .plecaContacto{
+        background-color: $negroer;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        .text-white{
+            font-weight: bold;
+        }
+    }
+    .formulario{
+        width: 600px;
+        height: 600px;
+        margin: auto;
+        margin-top: $pad*2;
+    }
+    .iFrame{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 10px solid;
+        padding: 15px;
+    }
+    h4, h5{
+        color: $bcoer;
+        text-align: center;
+        margin-top: 15px;
+    }
+}

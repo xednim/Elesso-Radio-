@@ -1,0 +1,22 @@
+.sectionPlay{
+    a{
+        width: 150px;
+        height: 60px;
+        text-decoration: none;
+        text-align: center;
+        color: $bcoer;
+        background-color: $rojoer;
+        padding: 10px;
+        margin: 10px;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+        .flecha{
+            box-sizing:border-box; 
+            padding: 5px;
+            margin-left: 10px;
+        }
+}

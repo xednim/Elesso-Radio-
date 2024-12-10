@@ -1,0 +1,19 @@
+.sectionMusica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .imagenMujer{
+        margin: 10px;
+        padding: 10px;
+        border: 10px solid $grisrecuadro;
+    }
+    h1{
+        color: $bcoer;
+        text-align: center;
+    }
+    p{
+        color: $bcoer;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,17 @@
+main{
+    .imgIndex{
+        width: 100vw;
+    }
+    .recuadroCarrusel{
+        margin: 10px;
+        padding: 10px;
+        border: 10px solid $grisrecuadro;
+    }
+}
+@media screen and (min-width:768px){
+    main{
+        .imgIndex{
+            width: 50vw;
+        }
+    }
+}

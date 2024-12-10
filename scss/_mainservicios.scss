@@ -1,0 +1,38 @@
+@import "reset";
+@import "variables";
+
+.container-fluid-servicios{
+    .nuestrosServicios{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+            justify-content: center;
+            align-items: center;
+            color: $bcoer;
+            background-color: $negroer;
+            .nuestroServicios{
+                font-weight: bold;
+            }
+    }
+    .textoServicios{
+        color: $bcoer;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+        .card{
+            background-color: $negroer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+            card-body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+

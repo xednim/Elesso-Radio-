@@ -1,0 +1,64 @@
+@import "variables";
+@import "reset";
+
+main{
+  .cimientosEmpresa{
+      .h1Empresa{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: $bcoer;
+        background-color: $negroer;
+        border-top-right-radius: 30px;
+        height: 100px;
+        font-weight: bold;
+      }
+  }
+  .mainNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 25px;
+  }
+  .imagenNosotros{
+    width: 75%;
+    border: 10px solid $grisrecuadro;
+    padding: 10px;
+  }
+  .h2Empresa{
+    color: $rojoer;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  .parrafoNos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: $bcoer;
+    width: 70%;
+    font-size: 1.3rem;
+  }
+}
+.row{
+  display: flex;
+}
+.filosofia{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 35px;
+}
+.h3Empresa{
+  color: $rojoer;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
